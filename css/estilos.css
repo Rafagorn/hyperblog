@@ -3,13 +3,28 @@ body {
     font-family: "Arial";
     margin:0;
     padding: 0;
-    background-color: rgb(67, 70, 70);
+    background-color: cornsilk;
 }
 
 #container {
-    color: grey;
-    text-align: center;
-    border: 2px solid grey;
-    margin: 20px;
-    padding: 20px;
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid darkgrey;
+    margin: 0 auto;
+    
+}
+
+#cabecera {
+    background: rgb(18, 45, 199);
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#post {
+    padding: 1em;
+    margin: 1em;
 }
